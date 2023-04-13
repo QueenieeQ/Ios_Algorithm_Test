@@ -3,7 +3,7 @@
 #  Giải thuật
 > ###  Sử dụng thuật toán BFS (Breadth-first search) trên một bàn cờ vua kích thước MxN với k ô cờ cản trở, tìm đường đi ngắn nhất từ ô A đến ô B, với mỗi bước di chuyển chỉ được phép đi đến ô kề cạnh và không được đi qua ô cản trở.
 
-- Khởi tạo hàng đợi, thêm ô A vào hàng đợi và đánh dấu ô A là đã ghé thăm.
+Khởi tạo hàng đợi, thêm ô A vào hàng đợi và đánh dấu ô A là đã ghé thăm.
 Lặp lại các bước sau cho đến khi hàng đợi trống hoặc tìm được ô B:
 a. Lấy ô đầu tiên ra khỏi hàng đợi.
 b. Nếu ô này là ô B, dừng thuật toán và trả về số bước đi để đến được ô B.
